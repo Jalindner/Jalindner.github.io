@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kooky Vapes: Where only the kookiest vapes reside</title>
+</head>
+<body>
+<header>
+	<img src="images/KookyVapes.png">
+	<div><h1>Only the Craziest E-Juice Need Apply</h1></div>
+</header>
+<form name="create-account" action="https://httpbin.org/post" method="post">
+<fieldset>
+<label>Register a New Account</label>
+	<div>
+		Email:
+		<input type="email" name="reg-email"></input>
+	</div>
+	<div>
+		Password:
+		<input type="password" name="reg-password"></input>
+	</div>
+	<div>
+		<input type="checkbox" name="confirm-18" value="agree">
+			I confirm that I am at least 18 years or older.
+		</input>
+	</div>
+	<div>
+		<button type="submit" name="register-submit">Register</button>
+	</div>
+	</fieldset>
+</form>
+<form name="log-in" action="https://httpbin.org/post" method="post">
+	<fieldset>
+		<label>Log Into a Current Account</label>
+	<div>
+		Email:
+		<input type="email" name="log-email"></input>
+	</div>
+	<div>
+		Password:
+		<input type="password" name="log-password"></input>
+	</div>
+	<div>
+		<button type="submit" name="login-submit">Log In</button>
+	</div>
+	</fieldset>
+</form>
+</body>
+</html>
