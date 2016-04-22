@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kooky Vapes: Where only the kookiest vapes reside</title>
+</head>
+<body>
+	<header>
+		<img src="images/KookyVapes.png">
+		<div><h1>Only the Craziest E-Juice Need Apply</h1></div>
+	</header>
+	<form name="products-form" action="https://httpbin.org/post" method="post">
+		<fieldset name="product-field">
+			<table border="3">
+				<tr>
+					<th>Product</th>
+					<th>Description</th>
+					<th>Price</th>
+					<th>Nicotine Level</th>
+					<th>Quantity</th>
+				</tr>
+				<tr>
+					<td><img src="images/UglyButter.jpg" alt="Ugly Butter"></td>
+					<td><label><b>Ugly Butter</b></label> 
+					<div>An awesome blend of fried dough and cinnamon suger.</div>
+					<div>It only tastes like it's 1,000 calories!</div></td>
+					<td><label>$17.95</label></td>
+					<td><select name="nic-product-one">
+						<option value="0mg">0 mg</option>
+						<option value="3mg">3 mg</option>
+						<option value="6mg">6 mg</option>
+						</select>
+					</td>
+					<td><input type="number"></input></td>
+				</tr>
+				<tr>
+					<td><img src="images/GermChocBeef.jpg" alt="German Chocolate Beefcake"></td>
+					<td><label><b>German Chocolate Beefcake</b></label> 
+					<div>We're not sure what the name is supposed to imply.</div>
+					<div>Anyways, this is a delicious blend of chocolate and coconut cake!</div>
+					<div>No traces of beef flavor though.</div></td>
+					<td><label>$20.00</label></td>
+					<td><select name="nic-product-two">
+						<option value="0mg">0 mg</option>
+						<option value="3mg">3 mg</option>
+						<option value="6mg">6 mg</option>
+						</select>
+					</td>
+					<td><input type="number"></input></td>
+				</tr>
+				<tr>
+					<td><img src="images/UnicornBlood.jpg" alt="Unicorn Blood"></td>
+					<td><label><b>Unicorn Blood</b></label> 
+					<div>All the deliciousness of attaining immortality without the poetic irony! 
+					</div><div>(or having to kill an actual unicorn)</div>
+					<div>The rush of rainbow sherbert will make you feel invigorated with magical powers!</div></td>
+					<td><label>$10.99</label></td>
+					<td><select name="nic-product-three">
+						<option value="0mg">0 mg</option>
+						<option value="3mg">3 mg</option>
+						<option value="6mg">6 mg</option>
+						</select>
+					</td>
+					<td><input type="number"></input></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td><button type="submit" name="prduct-submit" value="added">Add To Cart</button></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	<footer>
+		<table border="1">
+			<tr>
+				<td><a href="index.html">Home</a></td>
+				<td><a href="login.html">Register/Log in</a></td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>

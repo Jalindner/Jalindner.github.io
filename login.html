@@ -9,7 +9,7 @@
 	<div><h1>Only the Craziest E-Juice Need Apply</h1></div>
 </header>
 <form name="create-account" action="https://httpbin.org/post" method="post">
-<fieldset>
+<fieldset name="reg-feild">
 <label>Register a New Account</label>
 	<div>
 		Email:
@@ -20,7 +20,7 @@
 		<input type="password" name="reg-password"></input>
 	</div>
 	<div>
-		<input type="checkbox" name="confirm-18" value="agree">
+		<input type="checkbox" name="confirm-18" value="18+">
 			I confirm that I am at least 18 years or older.
 		</input>
 	</div>
@@ -30,7 +30,7 @@
 	</fieldset>
 </form>
 <form name="log-in" action="https://httpbin.org/post" method="post">
-	<fieldset>
+	<fieldset name="log-field">
 		<label>Log Into a Current Account</label>
 	<div>
 		Email:
@@ -45,5 +45,13 @@
 	</div>
 	</fieldset>
 </form>
+<footer>
+	<table border="1">
+		<tr>
+			<td><a href="index.html">Home</a></td>
+			<td><a href="login.html">Register/Log in</a></td>
+		</tr>
+	</table>
+</footer>
 </body>
 </html>
